@@ -73,6 +73,18 @@ let peliculaBorrada = peliculasAnimadas.pop();
 console.log(peliculaBorrada)
 console.log(peliculasAnimadas)
 
+//gonza
+let videojuego = otrasPeliculas.pop()
+function convergerAUno (peliculas, otrasPeliculas){
+    peliculas.push(otrasPeliculas.pop().toUpperCase())
+    peliculas.push(otrasPeliculas.pop().toUpperCase())
+    peliculas.push(otrasPeliculas.pop().toUpperCase())
+    peliculas.push(otrasPeliculas.pop().toUpperCase())
+    return peliculas
+}
+console.log(convergerAUno(peliculas, otrasPeliculas));
+console.log(videojuego);
+
 /*5. Finalmente, te envían dos arrays con calificaciones que hacen distintos usuarios
 del mundo sobre las películas con el siguiente formato:
 const asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4];
